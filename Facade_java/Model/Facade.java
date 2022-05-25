@@ -1,17 +1,23 @@
 
 import java.util.*;
 
+/**
+ * 
+ */
 public class Facade {
+
+    /**
+     * Default constructor
+     */
+    public Facade() {
+    }
+
     /**
      * @param boolean 
      * @param float
      */
-    ItemsPurchased i;
-    ProcessSales s;
-    Facade(boolean b, float f) {
+    public void Facade(void boolean, void float) {
         // TODO implement here
-        i = new ItemsPurchased();
-        s = new ProcessSales(b, i.getNumItemTypes(), f);
     }
 
     /**
@@ -19,8 +25,7 @@ public class Facade {
      */
     public void displayItemsPurchased() {
         // TODO implement here
-        i.getItemPurchased();
-
+        return null;
     }
 
     /**
@@ -28,7 +33,7 @@ public class Facade {
      */
     public void calculateAmountToPay() {
         // TODO implement here
-        s.processSale();
+        return null;
     }
 
 }

@@ -1,16 +1,31 @@
 
 import java.util.*;
 
+/**
+ * 
+ */
 public class Client {
+
+    /**
+     * Default constructor
+     */
+    public Client() {
+    }
+
+    /**
+     * 
+     */
+    public void Client() {
+        // TODO implement here
+    }
+
     /**
      * @param String[] 
      * @return
      */
-    public static void main(String[] args) {
+    public void main(void String[]) {
         // TODO implement here
-        Facade f = new Facade(false, 100);
-        f.displayItemsPurchased();
-        f.calculateAmountToPay();
+        return null;
     }
 
 }
