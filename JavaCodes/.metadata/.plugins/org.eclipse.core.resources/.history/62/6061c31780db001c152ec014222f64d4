@@ -1,0 +1,19 @@
+package adapterProg;
+import java.util.*;
+
+public class TaxAdapterDemo {
+
+    TaxAdapterDemo() {
+        // TODO implement here
+    }
+
+    /**
+     * @param String[] 
+     * @return
+     */
+    public static void main(String[] args) {
+        // TODO implement here
+        
+    }
+
+}

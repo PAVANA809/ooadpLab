@@ -1,0 +1,21 @@
+package adapterProg;
+import java.util.*;
+
+public class SwedenTax implements CalcTax {
+
+    SwedenTax() {
+        // TODO implement here
+    }
+
+    /**
+     * @param String 
+     * @param int 
+     * @param double 
+     * @return
+     */
+    public double taxAmount(String s, int i, double d) {
+        // TODO implement here
+        return 0.0d;
+    }
+
+}

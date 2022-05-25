@@ -1,0 +1,43 @@
+package adapterProg;
+import java.util.*;
+
+public class Item {
+
+    public String name;
+    public double price;
+    public int qty;
+    public double billAmount;
+
+    /**
+     * @param String 
+     * @param double 
+     * @param CalcTax
+     */
+    Item(String s, double d, CalcTax c) {
+        // TODO implement here
+    }
+
+    /**
+     * @param CalcTax 
+     * @return
+     */
+    public void setTax(CalcTax c) {
+        // TODO implement here
+    }
+
+    /**
+     * @param int 
+     * @return
+     */
+    public void setQuantity(int i) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public void printPrice() {
+        // TODO implement here
+    }
+
+}
