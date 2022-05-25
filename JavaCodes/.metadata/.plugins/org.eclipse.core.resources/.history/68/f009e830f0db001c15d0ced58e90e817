@@ -27,7 +27,7 @@ public class ProcessSales {
         // TODO implement here
     	Scanner sc = new Scanner(System.in);
     	System.out.println("Enter total bill amount:");
-    	billAmount = Float.parseFloat(sc.nextLine());
+    	billAmount = sc.nextFloat();
         if (!giftCert) {
             System.out.println("You don't have Gift Certificate!");
             System.out.println("Amount Payable: "+billAmount);
